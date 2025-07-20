@@ -9,13 +9,25 @@ public class Tests
 
     [Test]
     [Ignore("")]
-    public void Test1()
+    public void Test_1()
     {
         Assert.Fail("My failed test.");
     }
 
     [Test]
-    public void Test2()
+    public void Test_2()
+    {
+        Assert.Pass();
+    }
+
+    [Test]
+    public void Test_3()
+    {
+        Assert.Pass();
+    }
+
+    [Test]
+    public void Test_4()
     {
         Assert.Pass();
     }
