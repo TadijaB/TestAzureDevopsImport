@@ -19,3 +19,9 @@ Write-Host "$(FooSecret)"
 echo "Listing files in the default working directory:"
 
 dir $(System.DefaultWorkingDirectory) /S
+
+# Version
+
+$newBuildNumber = "Foo-$(Build.BuildNumber)"
+
+Write-Host "##vso[build.updatebuildnumber]$newBuildNumber"
