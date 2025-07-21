@@ -25,10 +25,4 @@ public class Tests
     {
         Assert.Pass();
     }
-
-    [Test]
-    public void Test_4()
-    {
-        Assert.Pass();
-    }
 }
